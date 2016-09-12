@@ -28,7 +28,7 @@ var g 				= {};
 	    space   : 32
 	};
 	g.cartridgesLeft = 10;
-	g.audio;
+	g.audio = document.createElement("audio");;
 	var aa = new SFX();
 
 g.init				= function(scene, width, height){
